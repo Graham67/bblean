@@ -1,0 +1,48 @@
+# - the toolbar -
+session.screen0.toolbar.enabled: false
+session.screen0.toolbar.placement: topCenter
+session.screen0.toolbar.widthPercent: 100
+session.screen0.toolbar.onTop: false
+session.screen0.toolbar.autoHide: false
+session.screen0.toolbar.pluginToggle: true
+session.screen0.toolbar.alpha.enabled: false
+session.screen0.toolbar.alpha.value: 200
+
+# - the menu -
+session.menu.position.x: 5
+session.menu.position.y: 22
+session.menu.maxWidth: 290
+session.menu.popupDelay: 100
+session.menu.mouseWheelFactor: 3
+session.menu.alpha.enabled: false
+session.menu.alpha.value: 213
+session.menu.onTop: false
+session.menu.sticky: true
+session.menu.snapWindow: false
+session.menu.pluginToggle: true
+session.menu.openDirection: bullet
+session.menu.sortbyExtension: true
+session.menu.drawSeparators: true
+session.menu.dropShadows: true
+
+# - the slit -
+session.screen0.slit.placement: TopRight
+session.screen0.slit.direction: Horizontal
+session.screen0.slit.autoHide: false
+session.screen0.slit.ontop: true
+session.screen0.slit.toggle: false
+
+# - other options -
+session.screen0.workspaces: 1
+session.screen0.workspaceNames: 1
+session.screen0.focusModel: ClickToFocus
+session.screen0.fullMaximization: false
+#session.screen0.strftimeFormat:
+
+session.autoraisedelay: 250
+session.opaqueMove: false
+session.imageDither: true
+
+# - menu & style -
+session.menufile: menu.rc
+session.styleFile: styles\ClassicWhiter
