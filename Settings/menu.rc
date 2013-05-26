@@ -1,6 +1,12 @@
+# -----------------------------------------------------------------
+# bblean 1.17 - MENU FILE
+# -----------------------------------------------------------------
+
+# Available menu commands are listed in the documentation.
+
 [begin] (Menu)
 
-  [submenu] (Launch)
+	[submenu] (Launch)
 		[exec] (Internet) {C:\Program Files (x86)\Mozilla Firefox\firefox.exe}
 		[exec] (Steam) {E:\Steam\Steam.exe}
 		[exec] (IRC) {C:\Program Files\HexChat\hexchat.exe}
@@ -15,6 +21,7 @@
 			[submenu] (Misc)
 			[path] (x86) {C:\Program Files (x86)}
 			[path] (x64) {C:\Program Files}
+			[path] (Portable) {D:\DOWNLOADS\MiscPrograms}
 			[path] (Drives)	{DRIVES}
 			[exec] (Bin) {shell:RecycleBinFolder}
 			[Run] (Run)
@@ -22,6 +29,7 @@
 			[end]
 
 	[submenu] (Settings)
+		[exec] (Bblean) {C:\bblean}
 		[config] (Configuration)
 		[path] (Controls) {CONTROLS}
 		[stylesmenu] (Styles) {C:\bbLean\styles}
@@ -34,8 +42,8 @@
 			[editplugins] (plugins.rc)
 			[edit] (bbKeys.rc) {plugins\bbKeys\bbKeys.rc}
 			[end]
-			[exec] (Install/Uninstall) {bsetshell.exe}
 			[nop]
+			[exec] (Install/Uninstall) {bsetshell.exe}
 			[reconfig] (Reconfigure)
 			[restart] (Restart)
 			[end]

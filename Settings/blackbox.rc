@@ -1,3 +1,9 @@
+# ------------------------------------------
+# bblean 1.17 - blackbox.rc - basic settings
+
+# Lines starting with # or ! are ignored
+# All items are configurable from the menu
+
 # - the toolbar -
 session.screen0.toolbar.enabled: false
 session.screen0.toolbar.placement: topCenter
@@ -9,8 +15,8 @@ session.screen0.toolbar.alpha.enabled: false
 session.screen0.toolbar.alpha.value: 200
 
 # - the menu -
-session.menu.position.x: 5
-session.menu.position.y: 22
+session.menu.position.x: 857
+session.menu.position.y: 284
 session.menu.maxWidth: 290
 session.menu.popupDelay: 100
 session.menu.mouseWheelFactor: 3
@@ -45,4 +51,4 @@ session.imageDither: true
 
 # - menu & style -
 session.menufile: menu.rc
-session.styleFile: styles\ClassicWhiter
+session.styleFile: styles\light2
