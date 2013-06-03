@@ -1,0 +1,53 @@
+# --------------------------------------------------
+# bbIconBox.rc
+
+bbIconBox.id.count: 2
+bbIconBox.id.1: Quick Launch
+bbIconBox.id.2: tray
+
+bbIconBox.tray.placement: Right
+bbIconBox.tray.position.x: 933
+bbIconBox.tray.position.y: 25
+bbIconBox.tray.useSlit: false
+bbIconBox.tray.alwaysOnTop: true
+bbIconBox.tray.AutoHide: true
+bbIconBox.tray.clickRaise: true
+bbIconBox.tray.snapWindow: true
+bbIconBox.tray.pluginToggle: true
+bbIconBox.tray.alpha.enabled: false
+bbIconBox.tray.alpha.value: 255
+bbIconBox.tray.orientation: vertical
+bbIconBox.tray.path: TRAY
+bbIconBox.tray.title: tray
+bbIconBox.tray.rows: 14
+bbIconBox.tray.columns: 22
+bbIconBox.tray.icon.size: 20
+bbIconBox.tray.icon.saturation: 255
+bbIconBox.tray.icon.hue: 20
+bbIconBox.tray.drawTitle: true
+bbIconBox.tray.drawBorder: true
+bbIconBox.tray.toolTips: true
+
+
+bbIconBox.Quick+Launch.placement: BottomCenter
+bbIconBox.Quick+Launch.position.x: 607
+bbIconBox.Quick+Launch.position.y: 869
+bbIconBox.Quick+Launch.useSlit: false
+bbIconBox.Quick+Launch.alwaysOnTop: true
+bbIconBox.Quick+Launch.AutoHide: true
+bbIconBox.Quick+Launch.clickRaise: true
+bbIconBox.Quick+Launch.snapWindow: true
+bbIconBox.Quick+Launch.pluginToggle: true
+bbIconBox.Quick+Launch.alpha.enabled: false
+bbIconBox.Quick+Launch.alpha.value: 255
+bbIconBox.Quick+Launch.orientation: vertical
+bbIconBox.Quick+Launch.path: APPDATA\Microsoft\Internet Explorer\Quick Launch
+bbIconBox.Quick+Launch.title: Quick Launch
+bbIconBox.Quick+Launch.rows: 4
+bbIconBox.Quick+Launch.columns: 8
+bbIconBox.Quick+Launch.icon.size: 25
+bbIconBox.Quick+Launch.icon.saturation: 255
+bbIconBox.Quick+Launch.icon.hue: 0
+bbIconBox.Quick+Launch.drawTitle: true
+bbIconBox.Quick+Launch.drawBorder: true
+bbIconBox.Quick+Launch.toolTips: true
