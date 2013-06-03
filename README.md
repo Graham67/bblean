@@ -1,8 +1,10 @@
 A collection of styles and settings for bblean.
 
-The settings are my own, backups of settings can be found [here][0].
+The settings and styles here on this page are my own, or modifications of others. 
 
-Styles from around the internet in one convenient place:
+Backups/originals/defaults of settings for everything bblean can be found [here][0].
+
+Popular styles from around the internet listed here in one convenient place:
 [hora-hora] [1],
 [PovRayMan] [2],
 [apathyrecharched] [3]. 
@@ -12,8 +14,6 @@ Several more pages of styles available at the following:
 [cthu1hu] [5],
 [ratednc-17] [6].
 
-
-light2/dark2 are tweaks of hora-horas original styles.
 
 [0]: https://github.com/brenttaylor/bblean_x64
 [1]: http://hora-hora.deviantart.com/art/BlackBox-combo-373191057)
