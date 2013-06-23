@@ -10,7 +10,18 @@ plugins\bbKeys\bbKeys.dll
 
 # - Integrated toolbar with tasks and tray
 plugins\bbLeanBar\bbLeanBar.dll
-!plugins\bbLeanBar\bbLeanBar2.dll
+
+#- bbSysmon
+! plugins\bbSysMon\BBSysmon.dll
+! plugins\bbSysMonPLUS\BBSysmonPlus.dll
+
+# - bbCalendar
+! plugins\bbCalendar\bbcalendar.dll
+
+# - bbFoo
+! & plugins\bbFooMP\bbfoomp.dll
+! & plugins\bbFooMan\bbfooman.dll
+! & plugins\bbFooMan\foo_control.dll
 
 # - Lean window skinner
 ! plugins\bbLeanSkin\bbLeanSkin.dll
