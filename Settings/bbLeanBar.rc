@@ -1,0 +1,69 @@
+# ------------------------------------------------------
+# bbLeanbar 1.17 - configuration
+
+# Lines starting with # or ! are ignored
+
+# ---------------------
+# The items on the bar:
+# This builds a toolbar with tasks and tray. You can
+# change the order of items or uncomment some of the
+# items currently disabled "!" 
+
+!bbleanbar.item: WorkspaceLabel
+!bbleanbar.item: WorkspaceButtonL
+!bbleanbar.item: WorkspaceButtonR
+!bbleanbar.item: Tray
+!bbleanbar.item: WindowButtonL
+!bbleanbar.item: WindowButtonR
+!bbleanbar.item: TaskStyleButton
+!bbleanbar.item: WindowLabel
+!bbleanbar.item: Space
+bbleanbar.item: Tasks
+bbleanbar.item: Clock
+bbleanbar.item: CurrentOnlyButton
+
+
+# ----------------
+# General Settings
+bbLeanBar.placement: TopLeft
+bbLeanBar.position.x: 0
+bbLeanBar.position.y: 0
+bbLeanBar.widthPercent: 88
+bbLeanBar.useSlit: false
+bbLeanBar.pluginToggle: true
+bbleanbar.OnTop: true
+bbLeanBar.AutoHide: false
+bbleanbar.autoRaise: true
+bbleanbar.snapToEdge: true
+bbLeanBar.alpha.enabled: false
+bbLeanBar.alpha.value: 255
+
+------------
+# Icon Color
+bbLeanBar.icon.saturation: 0
+bbLeanBar.icon.hue: 40
+
+# ------------
+# Clock-Format
+bbLeanBar.strftimeFormat: %a %d %I:%M %p
+
+# ---------------
+# Special Options
+bbLeanBar.smallIcons: true
+bbLeanBar.balloonTips: true
+bbLeanBar.autoFullscreenHide: false
+bbLeanBar.setDesktopMargin: true
+bbLeanBar.sendToSwitchTo: true
+
+# -------------------------
+# Task Tabs
+bbLeanBar.tray.hidden.count: 0
+bbLeanBar.tasks.style: 0
+bbLeanBar.tasks.reverse: false
+bbLeanBar.tasks.current: true
+bbLeanBar.tasks.sysmenu: false
+bbLeanBar.tasks.drawBorder: false
+bbLeanBar.tasks.maxWidth: 22
+bbLeanBar.alwaysOnTop: true
+
+
